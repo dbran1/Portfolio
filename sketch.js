@@ -8,7 +8,8 @@ function draw() {
   noStroke()
   ellipse(mouseX,mouseY, 10,10);
   stroke("blue")
-  text("ICS4U Portfolio",window.innerWidth/2-window.innerWidth/30-10,200)
-  text("By: Daegan",window.innerWidth/2-window.innerWidth/30,230)
+  textSize(50)
+  strokeWeight(5)
+  text("ICS4U Portfolio",window.innerWidth/2-window.innerWidth/7-40,150)
+  text("By: Daegan",window.innerWidth/2-window.innerWidth/7,250)
 }
-
