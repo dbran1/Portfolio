@@ -10,6 +10,6 @@ function draw() {
   stroke("blue")
   textSize(50)
   strokeWeight(5)
-  text("ICS4U Portfolio",window.innerWidth/2-window.innerWidth/7-40,150)
-  text("By: Daegan",window.innerWidth/2-window.innerWidth/7,250)
+  text("ICS4U Portfolio",window.innerWidth/2-window.innerWidth/14-40,150)
+  text("By: Daegan",window.innerWidth/2-window.innerWidth/14,250)
 }
