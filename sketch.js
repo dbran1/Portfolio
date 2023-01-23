@@ -1,4 +1,4 @@
-function setup() {
+unction setup() {
   createCanvas(window.innerWidth, 400);
 }
 
