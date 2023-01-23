@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(window.innerWidth, 400);
 }
 
 function draw() {
@@ -8,6 +8,7 @@ function draw() {
   noStroke()
   ellipse(mouseX,mouseY, 10,10);
   stroke("blue")
-  text("ICS4U Portfolio",150,200)
-  text("By: Daegan",160,230)
+  text("ICS4U Portfolio",window.innerWidth/2-window.innerWidth/20-10,200)
+  text("By: Daegan",window.innerWidth/2-window.innerWidth/20,230)
 }
+
